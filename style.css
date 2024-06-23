@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url('./assets/img/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  font-family: 'Tiny5', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.about {
+  background-image: url('./assets/img/banner.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 1rem;
+}
+
+.game {
+  height: 80%;
+  border: 2px solid white;
+  border-radius: 10px;
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+#left, #right {
+  background-image: url('./assets/img/boxBg.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.75;
+  max-width: 750px;
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: rgba(red, green, blue, 0.7) 0px 0px 0px 3px;
+}
+
+.cube {
+  background-image: url('./assets/img/cube.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  cursor: pointer;
+}
